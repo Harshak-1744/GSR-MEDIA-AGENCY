@@ -36,6 +36,9 @@ Feel free to explore the code and use it as a reference for your own front-end w
 
 [Visit the Front-End Website](https://harshak-1744.github.io/GSR-MEDIA-AGENCY/) 
 
+## **Note: This website is a prototype created in accordance with the client's specific requirements.**
+
+
 
 
 
