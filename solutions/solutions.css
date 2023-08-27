@@ -1,0 +1,68 @@
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0; /* Added padding on the top and bottom */
+    text-align: center;
+}
+
+/* Header Content Styles */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+}
+
+/* Style for the home icon */
+.header-content i {
+    margin-right: 10px;
+    font-size: 24px; /* Increase icon size */
+}
+
+/* Style for the header title (h1) */
+.header-title {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make the title bold */
+}
+
+/* Add a space at the bottom to push content below the footer */
+body {
+    padding-bottom: 60px; /* Adjust as needed to push content below the footer */
+}
+
+/* Footer Styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Added padding on the top and bottom */
+}
+
+/* Footer Content Styles */
+.footer-content {
+    display: flex;
+    justify-content: right; 
+    align-items: center;
+}
+
+/* Style for the copyright text */
+.copyright {
+    font-size: 14px;
+}
+
+/* Hover effect for links in the header */
+.header-content a:hover {
+    color: yellow; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s; 
+}

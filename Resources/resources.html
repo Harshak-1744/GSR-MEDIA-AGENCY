@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <!-- Add Bootstrap CSS link here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Add Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Link to your custom CSS -->
+    <link rel="stylesheet" href="resources.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <a href="../index.html" class="home-link">
+                <i class="fas fa-home fa-2x" style="color: aliceblue;"></i>
+            </a>
+            <h1 class="header-title">GSR Media</h1>
+        </div>
+    </header>
+
+    <!-- Resources Section -->
+    <div class="container mt-5">
+        <h1 class="text-center">Resources</h1>
+        <div class="row resources">
+            <!-- Article Card 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./c1.jpg" class="card-img-top" alt="Article Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Maximizing Social Media Engagement</h5>
+                        <p class="card-text">Learn effective strategies to boost social media engagement and create a strong online presence for your brand.</p>
+                        <a href="#" class="btn btn-primary">Read Article</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article Card 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./c3.jpg" class="card-img-top" alt="Article Image">
+                    <div class="card-body">
+                        <h5 class="card-title">The Power of Content Marketing</h5>
+                        <p class="card-text">Discover how content marketing can drive traffic, generate leads, and establish your authority in the digital landscape.</p>
+                        <a href="#" class="btn btn-primary">Read Article</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article Card 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./c4.png" class="card-img-top" alt="Article Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Navigating SEO: From Basics to Advanced</h5>
+                        <p class="card-text">Get insights into the world of search engine optimization, from fundamental concepts to advanced techniques for improved rankings.</p>
+                        <a href="#" class="btn btn-primary">Read Article</a>
+                    </div>
+                </div>
+            </div>
+            
+             <!-- Article Card 4 -->
+             <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./c2.png" class="card-img-top" alt="Article Image">
+                    <div class="card-body">
+                        <h5 class="card-title">The Art of Visual Storytelling</h5>
+                        <p class="card-text">Explore the impact of visual storytelling in modern marketing and learn how to create compelling visual narratives for your brand.</p>
+                        <a href="#" class="btn btn-primary">Read Article</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Growth Comparison Section -->
+    <div class="container mt-5">
+        <h1 class="text-center">Growth Comparison</h1>
+        <div class="row">
+            <!-- Chart 1 -->
+            <div class="col-md-6">
+                <div class="chart-container" style="width: 500px; height: 400px;">
+                    <canvas id="chartBefore"></canvas>
+                </div>
+            </div>
+
+            <!-- Chart 2 -->
+            <div class="col-md-6">
+                <div class="chart-container" style="width: 550px; height: 400px;">
+                    <canvas id="chartAfter"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript and jQuery (for Bootstrap components) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Add your custom JavaScript file -->
+    <script src="resources.js"></script>
+</body>
+</html>

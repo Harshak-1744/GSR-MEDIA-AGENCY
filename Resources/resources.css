@@ -1,0 +1,34 @@
+/* Custom CSS for your page */
+body {
+    background-color: #f8f9fa;
+}
+.resources {
+    padding: 20px;
+}
+.chart-container {
+    margin-bottom: 20px ; 
+}
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Header Content Styles */
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the home icon */
+.header-content i {
+    margin-right: 10px;
+}
+
+/* Style for the header title (h1) */
+.header-title {
+    flex-grow: 1;
+    text-align: center;
+}
